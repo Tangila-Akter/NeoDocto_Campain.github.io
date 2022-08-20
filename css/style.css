@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.carousel-indicators{
+    bottom: -20px !important;
+}
+.carousel-inner img {
+    width: 80%;
+margin-block: 50px;
+margin-bottom: 44px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin-top: 13px;
+
+}
+
+.section{
+	padding: 20px;
+	width: 1280px;
+	margin: 40px auto;
+}
+.section ul{
+	display: flex;
+	margin-bottom: 10px ;
+}
+.section ul li{
+	list-style: none;
+	background-color: #eee;
+	padding: 8px 20px;
+	margin: 5px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+.section ul li.active{
+	background: #03a9f4;
+	color:#fff;
+}
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+}
+.gallery .itembox{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	margin: 5px;
+
+}
+.gallery .itembox img{ 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
